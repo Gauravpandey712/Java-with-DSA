@@ -1,0 +1,11 @@
+question,a,b,c,d,correct
+Java is ?,Programming Language,Operating System,Database,Browser,A
+JVM stands for ?,Java Virtual Machine,Java Visual Machine,Java Variable Method,Joint Virtual Machine,A
+Which company developed Java?,Sun Microsystems,Microsoft,Oracle,Google,A
+Which keyword is used to inherit a class in Java?,extends,implements,inherit,super,A
+Which method is the entry point of Java program?,main,start,run,init,A
+Which of these is not a Java primitive type?,int,boolean,String,double,C
+Which keyword is used to create object in Java?,new,create,object,class,A
+Which access modifier makes members visible everywhere?,public,private,protected,default,A
+Which exception is unchecked?,NullPointerException,IOException,SQLException,ClassNotFoundException,A
+Which collection does not allow duplicate elements?,Set,List,Array,Map,A

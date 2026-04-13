@@ -1,0 +1,6 @@
+1--> learn java
+1-->fundamental of DSA
+3-->Solve practice on dsa
+4-->focus on bulding few project with keeep practicng dsa
+5-->focus on learning low level design
+ 
