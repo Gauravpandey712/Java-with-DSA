@@ -1,5 +1,5 @@
-class void pat1{
-public class void main(String[] args) {
+public class pat {
+    public static void main(String[] args) {
    
  for (int i = 5; i >= 1; i--) 
    {
@@ -8,28 +8,25 @@ public class void main(String[] args) {
         System.out.print("* ");
         }
             System.out.println();
-    }
-    }
+}
 
- //pattern 2   
-    
- for (int i = 1; i <= 5; i++) 
- {
-     for (int j = 1; j <= 5; j++) 
-    {
-       if (i == 1 || i == 5 || j == 1 || j == 5) 
-          {
-             System.out.print("* ");
-           } 
-           else 
-              {
-                    System.out.print(" ");
-               }
+
+// pattern 2   
+public void pat2() {
+    for (int i = 1; i <= 5; i++) {
+        for (int j = 1; j <= 5; j++) {
+            if (i == 1 || i == 5 || j == 1 || j == 5) {
+                System.out.print("* ");
+            } else {
+                System.out.print(" ");
             }
-            System.out.println();
         }
-    
-//pattern 3
+        System.out.println();
+    }
+}
+
+// pattern 3
+public void pat3() {
    
         for (int i = 5; i >= 1; i--) {
             for (int j = 1; j <= 5 - i; j++) {
@@ -39,9 +36,11 @@ public class void main(String[] args) {
                 System.out.print("* ");
             }
             System.out.println();
-        }
-    
-//pattern 4
+    }
+}
+
+// pattern 4
+public void pat4() {
    
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
@@ -54,9 +53,11 @@ public class void main(String[] args) {
                 System.out.print("* ");
             }
             System.out.println();
-        }
-    
-//pattern 5
+    }
+}
+
+// pattern 5
+public void pat5() {
    
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= 5 - i; j++) {
@@ -114,7 +115,7 @@ public class void main(String[] args) {
     }
 
     // Pattern 8: Diagonal Pattern
-    
+    public void pat8() {
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= 5; j++) {
                 if (i == j || i + j == 6) {
@@ -125,9 +126,10 @@ public class void main(String[] args) {
             }
             System.out.println();
         }
-    
+    }
 
     // Pattern 9: Empty Triangle
+    public void pat9() {
    
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= 5 - i; j++) {
@@ -142,9 +144,10 @@ public class void main(String[] args) {
             }
             System.out.println();
         }
-    
+    }
 
     // Pattern 10: Hourglass Pattern
+    public void pat10() {
     
         for (int i = 5; i >= 1; i--) {
             for (int j = 1; j <= 5 - i; j++) {
@@ -164,7 +167,7 @@ public class void main(String[] args) {
             }
             System.out.println();
         }
-    
+    }
 
     // Pattern 11: Number Pattern (Repeating Numbers)
     public void pat11() {
@@ -178,7 +181,7 @@ public class void main(String[] args) {
     }
 
     // Pattern 12: Number Pattern (Sequential Numbers)
-    
+    public void pat12() {
         for (int i = 1; i <= 5; i++) {
             System.out.print("*");
             for (int j = 1; j <= i; j++) {
@@ -186,9 +189,10 @@ public class void main(String[] args) {
             }
             System.out.println("*");
         }
-    
+    }
 
     // Pattern 13: Number Pattern (Continuous Numbers)
+    public void pat13() {
   
         int num = 1;
         for (int i = 1; i <= 5; i++) {
@@ -199,9 +203,10 @@ public class void main(String[] args) {
             }
             System.out.println("*");
         }
-    
+    }
 
     // Pattern 14: Fibonacci Series in a Pattern
+    public void pat14() {
     
         for (int i = 1; i <= 5; i++) {
             int a = 0, b = 1, c;
@@ -214,4 +219,5 @@ public class void main(String[] args) {
             }
             System.out.println("*");
         }
-    
+    }
+    }

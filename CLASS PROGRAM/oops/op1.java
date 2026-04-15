@@ -1,5 +1,4 @@
-//instance variable calling methods 
-class op1 
+public class op1 
 {
 public static void main(String[] args)
 {

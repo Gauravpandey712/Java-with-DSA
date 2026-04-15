@@ -9,6 +9,6 @@ public class p1
         double fahrenheit = sc.nextDouble();
         double celsius = (fahrenheit - 32) * 5 / 9;
         System.out.println(celsius);
-        
+        sc.close();
   }
-  }
+}
